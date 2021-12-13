@@ -6,7 +6,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint . --ext .ts,.tsx,.vue,.js"
   },
   "dependencies": {
     "@vueuse/core": "^7.3.0",
